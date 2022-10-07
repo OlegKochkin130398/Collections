@@ -39,17 +39,16 @@ public class Main {
             System.out.println(str);
         }
 
-
         ArrayList<Summers>summer = new ArrayList<>();
-        for (int i = 1; i < 11; i++) {
+        for (int i = 0; i < 10; i++) {
             Summers sum = new Summers();
             sum.Summa= i*2;
-            System.out.print(""+sum.Summa+"\n");
-            System.out.print("");
+            System.out.println(sum);
         }
 
         LinkedList<String> xyz = new LinkedList<String>();
-        for (int i = 1; i < 20; i++) {
+
+        for (int i = 1; i < 11; i++) {
             xyz.add(""+i);
             System.out.println(xyz);
 
